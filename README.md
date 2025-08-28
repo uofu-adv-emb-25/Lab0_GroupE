@@ -1,4 +1,14 @@
-# Renode setup
+# Lab 0 Group E
+Status Badge: ![Lab 0 Status](https://github.com/uofu-adv-emb-25/Lab0_GroupE/actions/workflows/main.yml/badge.svg)
+
+Blink code for Pi Pico. Made from the [template repository](https://github.com/uofu-embed/rtos.template) with a modified blink time. 
+Expects the following environment variables to be set:
+
+    - `PICO_SDK_PATH`
+    - `FREERTOS_PATH`
+    - `UNITY_PATH`
+
+## Renode setup
 The Raspberry Pico needs configuration files for Renode to work properly.
 
 * On MacOS, the installation location is `/Applications/Renode.app/Contents/MacOs`
